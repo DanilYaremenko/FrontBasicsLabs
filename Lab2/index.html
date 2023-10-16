@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <title>Document</title>
+    <style>
+      td {
+        padding: 10px;
+        text-align: center;
+        height: 15px;
+        min-width: 50px;
+      }
+
+      tr:nth-child(1) {
+        background-color: #448f8f;
+        color: #200a0a;
+      }
+
+      tr:nth-child(2) {
+        background-color: #f5f544;
+        color: #9e4c4c;
+      }
+
+      tr:nth-child(1):hover {
+        background-color: #8f448f;
+      }
+
+      tr:nth-child(2):hover {
+        background-color: #5444f5;
+      }
+    </style>
+  </head>
+  <body>
+    <table border="1">
+      <tr>
+        <td class="color1">1</td>
+        <td class="color1">2</td>
+        <td class="color1" rowspan="2">Yaremenko</td>
+        <td class="color1">Danylo</td>
+        <td class="color1" rowspan="2">Vyacheslavovich</td>
+      </tr>
+
+      <tr>
+        <td class="color2" colspan="2">IM-12</td>
+        <td class="color2">Lab2 variant 4</td>
+      </tr>
+      <tr>
+        <td colspan="2"></td>
+        <td colspan="3"></td>
+      </tr>
+    </table>
+    <div class="huge-container">
+        <div class="container">
+            <div class="circle-1"></div>
+            <div class="circle-empty-1"></div>
+            <div class="horizontal-line-1"></div>
+            <div class="vertical-line-1"></div>
+          </div>
+          <div class="container">
+            <div class="circle-2"></div>
+            <div class="circle-empty-2"></div>
+            <div class="horizontal-line-2"></div>
+            <div class="vertical-line-2"></div>
+          </div>
+    </div>
+    
+  </body>
+</html>
