@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.image-container-left {
+  position: absolute;
+  width: 20%;
+  height: 60%;
+  float: left;
+}
+
+.image-container-left img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+.text-container-right {
+  position: absolute;
+  width: 80%;
+  height: 60%;
+  right: 0;
+  float: right;
+  background-color: #1eb2ad;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-container-right p {
+  text-align: start;
+  font-size: 14px;
+}
+
+.image-container-center {
+  position: fixed;
+  bottom: 20%;
+  width: 100%;
+  height: 20%;
+  float: var(bottom);
+}
+
+.image-container-center img {
+  width: 100%;
+  height: 100%;
+}
+
+.text-container-center {
+  position: fixed;
+  bottom: 0%;
+  width: 100%;
+  height: 20%;
+  float: var(bottom);
+  background-color: #cacf2d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-container-center p {
+  text-align: start;
+  font-size: 14px;
+}
+
+.text-container-center p {
+  text-align: start;
+  font-size: 14px;
+}
