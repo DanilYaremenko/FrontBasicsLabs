@@ -1,0 +1,47 @@
+#form {
+  margin: 0 auto;
+  width: 400px;
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+input {
+  margin-bottom: 1em;
+  padding: 0.8em;
+}
+
+#submit {
+  margin-top: 1em;
+  padding: 0.5em;
+  font-weight: bold;
+  background-color: #ccc;
+  border: 1px solid #ccc;
+  border-radius: 0.5em;
+  cursor: pointer;
+  width: 167px;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.table-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1em;
+}
+
+table {
+  * {
+    user-select: none;
+  }
+}
