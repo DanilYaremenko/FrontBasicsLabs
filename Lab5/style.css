@@ -45,3 +45,9 @@ table {
     user-select: none;
   }
 }
+
+td {
+  padding: 0.5em;
+  border: 1px solid #ccc;
+  border-radius: 0.5em;
+}
